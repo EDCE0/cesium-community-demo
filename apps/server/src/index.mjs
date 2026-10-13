@@ -375,7 +375,8 @@ attachWsHandlers(wss, 'main')
 
 server.listen(config.port, config.host, () => {
   const addrs = []
-  const nets = networkInterfaces()
+  let nets = {}
+  try { nets = networkInterfaces() } catch { /* Restricted hosts can still serve on loopback. */ }
   Object.values(nets).forEach((list) =>
     (list || []).forEach((n) => {
       if (n.family === 'IPv4' && !n.internal) addrs.push(n.address)

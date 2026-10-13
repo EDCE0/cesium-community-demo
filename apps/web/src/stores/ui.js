@@ -10,11 +10,11 @@ const uid = (p = 'id') => `${p}-${Date.now().toString(36)}-${(seq++).toString(36
 export const useUiStore = defineStore('ui', {
   state: () => ({
     panels: {
-      layers: true,
+      layers: false,
       stats: true,
-      chat: true,
+      chat: false,
       alarms: false,
-      legend: true,
+      legend: false,
       help: false,
     },
     /** 叠加在 Cesium 之上的图表卡片 */
@@ -34,7 +34,7 @@ export const useUiStore = defineStore('ui', {
       return this.panels[panel]
     },
     resetPanels() {
-      this.panels = { layers: true, stats: true, chat: true, alarms: false, legend: true, help: false }
+      this.panels = { layers: false, stats: true, chat: false, alarms: false, legend: false, help: false }
     },
 
     /* ---------------- 信息卡片 ---------------- */

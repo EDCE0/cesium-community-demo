@@ -21,7 +21,9 @@
   "greenRate": 0.36,
   "strataUnits": 6,
   "management": "阳光新城物业管理处",
-  "generatedAt": "2026-10-12T15:51:08.690Z",
+  "generatedAt": "2026-10-13T05:11:34.495Z",
+  "dataSource": "synthetic",
+  "disclaimer": "程序化生成的虚构示范小区，住户、能耗与事件均为模拟数据",
   "layers": [
     {
       "id": "buildings",

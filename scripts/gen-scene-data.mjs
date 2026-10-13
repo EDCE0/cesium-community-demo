@@ -123,7 +123,7 @@ const RESIDENTIAL = [
 
 /** 公共建筑 */
 const PUBLIC = [
-  { id: 'B_C01', name: '社区服务中心', type: 'community', cx: -40, cy: 0, shape: 'l', w: 46, d: 30, notchW: 18, notchD: 12, floors: 4 },
+  { id: 'B_C01', name: '社区服务中心', type: 'community', cx: -40, cy: 0, shape: 'rect', w: 70, d: 42, floors: 3 },
   { id: 'B_C02', name: '阳光幼儿园', type: 'school', cx: 60, cy: 40, w: 36, d: 24, floors: 3 },
   { id: 'B_C03', name: '商业配套楼', type: 'commercial', cx: 60, cy: -30, w: 40, d: 18, floors: 2 },
   { id: 'B_C04', name: '水泵房', type: 'utility', cx: -120, cy: 20, w: 14, d: 10, floors: 1 },
@@ -188,7 +188,9 @@ function hash(str) {
 const buildings = [...RESIDENTIAL.map((b) => ({ ...b, type: 'residential', shape: 'rect' })), ...PUBLIC]
 
 const buildingFeatures = []
-const property = { site: '阳光新城', generatedAt: new Date().toISOString(), buildings: [] }
+const property = { site: '阳光新城', generatedAt: new Date().toISOString(),
+  dataSource: 'synthetic',
+  disclaimer: '程序化生成的虚构示范小区，住户、能耗与事件均为模拟数据', buildings: [] }
 
 for (const b of buildings) {
   const height = round(b.floors * FLOOR_H, 2)
@@ -475,6 +477,8 @@ const site = {
   strataUnits: 6,
   management: '阳光新城物业管理处',
   generatedAt: new Date().toISOString(),
+  dataSource: 'synthetic',
+  disclaimer: '程序化生成的虚构示范小区，住户、能耗与事件均为模拟数据',
   layers: [
     { id: 'buildings', name: '建筑白模', file: 'buildings.geojson' },
     { id: 'roads', name: '小区道路', file: 'roads.geojson' },

@@ -365,3 +365,11 @@ PolygonGeometry 的 rectangle 用法、无头环境缺 VTF），以及对应的�
 - 三维引擎：[CesiumJS](https://cesium.com/platform/cesiumjs/)（Apache-2.0）
 - AI 操控层：[cesium-mcp-bridge](https://www.npmjs.com/package/cesium-mcp-bridge) / [cesium-mcp-runtime](https://www.npmjs.com/package/cesium-mcp-runtime)（MIT）
 - 本项目代码用于方案验证与演示，可按需修改。
+
+## 智慧社区大屏界面（2026-10）
+
+首页采用全屏 Cesium 场景、青蓝色半透明双侧监控面板，提供社区概况、用水用气趋势、实时管网监测、用电统计、安全事件与设备清单。顶部业务导航可打开原有图层、统计、告警和 AI 助手；楼栋选中、楼层展开、地下管线与自然语言操作继续保留。
+
+`npm run data:build` 可重新生成虚构小区：17 栋住宅、7 栋公共建筑、609 户住宅、41 个 IoT 点位及 13 段管线。住户、能耗、事件为模拟数据。建筑立面窗户、沿路树木和停车位在浏览器中程序化生成，无须地图 API Key 或在线三维模型。该方案是程序化三维场景，并非参考图片中的摄影测量实景模型。
+
+启动：`npm install`，然后 `npm run dev`；生产运行：`npm run build`，然后 `npm start`。修改已通过生产构建及 Cesium API 检查；实际 GPU 渲染与不同屏幕尺寸的视觉效果需在浏览器确认。

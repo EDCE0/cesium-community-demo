@@ -10,6 +10,7 @@
  * ---------------------------------------------------------------------------
  */
 import * as Cesium from 'cesium'
+import { addCommunityDetails } from './details.js'
 import { CesiumBridge } from 'cesium-mcp-bridge'
 import { addBaseMap, addSiteGround } from './baseMap.js'
 import { createTunnelController } from './tunnel.js'
@@ -108,8 +109,8 @@ export class CesiumViewerService {
     // 这样视线正好落在场地中心（高度 780 m ÷ tan45° ≈ 780 m 水平距离），
     // 约 520 m 见方的场地刚好填满视口，首屏即可看清全部楼栋肌理。
     this.viewer.camera.setView({
-      destination: Cesium.Cartesian3.fromDegrees(center.lon - 0.0008, center.lat - 0.0070, 780),
-      orientation: { heading: Cesium.Math.toRadians(-6), pitch: Cesium.Math.toRadians(-45), roll: 0 },
+      destination: Cesium.Cartesian3.fromDegrees(center.lon - 0.0038, center.lat - 0.0053, 540),
+      orientation: { heading: Cesium.Math.toRadians(28), pitch: Cesium.Math.toRadians(-42), roll: 0 },
     })
 
     // --- 底图与场地 ---
@@ -136,6 +137,7 @@ export class CesiumViewerService {
     this.greens = await stage('绿地', () => loadGreens(this.viewer, data.greens))
     this.pipes = stage('地下管线', () => loadPipes(this.viewer, data.pipes))
     this.sensors = stage('IoT 点位', () => loadSensors(this.viewer, data.sensors))
+    this.details = addCommunityDetails(this.viewer, data)
     this.floorViewer = createFloorViewer(this.viewer)
     this.tunnel = createTunnelController(this.viewer)
 
@@ -171,6 +173,8 @@ export class CesiumViewerService {
     this.baseMap?.setVisible(v.baseMap)
     if (this.siteGround) this.siteGround.show = v.baseMap
     this.buildings?.setVisible(v.buildings)
+    this.details?.setVisible(v.baseMap)
+    this.details?.setBuildingsVisible(v.baseMap && v.buildings && !this.expandedBuildingId)
     this.roads?.setVisible(v.roads)
     this.greens?.setVisible(v.greens)
     this.pipes?.setVisible(v.pipes)
@@ -309,6 +313,7 @@ export class CesiumViewerService {
 
     if (this.expandedBuildingId) await this.collapseFloors()
     this.expandedBuildingId = id
+    this.details?.setBuildingsVisible(false)
 
     record.entity.show = false
     const center = record.entity.properties.center.getValue()
@@ -358,6 +363,7 @@ export class CesiumViewerService {
     const record = this.buildings?.entityMap.get(id)
     if (record) record.entity.show = true
     this.expandedBuildingId = null
+    this.details?.setBuildingsVisible(this._layerVisibility.baseMap && this._layerVisibility.buildings)
     this.emit('floorsCollapsed', { id })
     return true
   }

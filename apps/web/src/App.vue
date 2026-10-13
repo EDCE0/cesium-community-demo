@@ -14,6 +14,7 @@ import { useSceneStore } from './stores/scene.js'
 import { useUiStore } from './stores/ui.js'
 import { useChatStore } from './stores/chat.js'
 
+import CommunityDashboard from './components/CommunityDashboard.vue'
 import SceneCanvas from './components/SceneCanvas.vue'
 import SceneTooltip from './components/SceneTooltip.vue'
 import LayerPanel from './components/LayerPanel.vue'
@@ -432,8 +433,8 @@ const statusDot = computed(() => (scene.error ? 'error' : scene.ready ? 'ok' : '
       <div class="brand">
         <span class="logo">◈</span>
         <div class="brand-text">
-          <strong>阳光新城 · 市政工程数字化平台</strong>
-          <span>CesiumJS 1.139 · cesium-mcp-bridge / runtime · 私有化 RAG</span>
+          <strong>阳光新城 · 智慧社区数字孪生平台</strong>
+          <span>SUNSHINE COMMUNITY · DIGITAL TWIN OPERATIONS CENTER</span>
         </div>
       </div>
 
@@ -464,6 +465,7 @@ const statusDot = computed(() => (scene.error ? 'error' : scene.ready ? 'ok' : '
 
     <!-- ============ 主体 ============ -->
     <main class="body">
+      <CommunityDashboard :scene="scene" @quick="quickAction" @locate="onSelectBuilding" @panel="(p) => ui.setPanel(p)" />
       <LayerPanel
         v-if="ui.panels.layers"
         :layers="scene.layers"
@@ -509,7 +511,7 @@ const statusDot = computed(() => (scene.error ? 'error' : scene.ready ? 'ok' : '
       </section>
 
       <StatsPanel
-        v-if="ui.panels.stats"
+        v-if="ui.panels.stats && ui.charts.length"
         :charts="ui.charts"
         :service="svc"
         :scene="scene"

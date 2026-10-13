@@ -13,10 +13,10 @@ import * as Cesium from 'cesium'
 import { fmt } from '../lib/util.js'
 
 export const BUILDING_COLORS = {
-  residential: '#8ab4f8',
-  community: '#7ed0a8',
-  school: '#ffd166',
-  commercial: '#f4a261',
+  residential: '#d3d7d3',
+  community: '#ddd5bd',
+  school: '#d9c6ac',
+  commercial: '#b6c5c8',
   utility: '#ef8354',
   parking: '#9aa5b1',
 }
@@ -39,7 +39,7 @@ const HIGHLIGHT_COLOR = '#ff6b6b'
 export async function loadBuildings(viewer, geojson) {
   const ds = await Cesium.GeoJsonDataSource.load(geojson, {
     clampToGround: true,
-    fill: Cesium.Color.fromCssColorString(BUILDING_COLORS.residential).withAlpha(0.85),
+    fill: Cesium.Color.fromCssColorString(BUILDING_COLORS.residential).withAlpha(1.0),
     stroke: Cesium.Color.fromCssColorString('#ffffff').withAlpha(0.55),
     strokeWidth: 1.2,
   })
@@ -56,7 +56,7 @@ export async function loadBuildings(viewer, geojson) {
     const type = get('type') || 'residential'
     const height = Number(get('height')) || 12
     const floors = Number(get('floors')) || 4
-    const base = Cesium.Color.fromCssColorString(BUILDING_COLORS[type] || BUILDING_COLORS.residential).withAlpha(0.85)
+    const base = Cesium.Color.fromCssColorString(BUILDING_COLORS[type] || BUILDING_COLORS.residential).withAlpha(1.0)
 
     entity.name = get('name') || id
     entity.__domainId = id
