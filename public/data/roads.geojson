@@ -1,0 +1,177 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "R_MAIN_1",
+      "properties": {
+        "id": "R_MAIN_1",
+        "name": "小区主环路",
+        "level": "main",
+        "width": 7,
+        "surface": "沥青"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.2995942,
+            40.0527068
+          ],
+          [
+            116.3042297,
+            40.0527068
+          ],
+          [
+            116.3045231,
+            40.0524822
+          ],
+          [
+            116.3045231,
+            40.0493381
+          ],
+          [
+            116.3042297,
+            40.0491135
+          ],
+          [
+            116.2995942,
+            40.0491135
+          ],
+          [
+            116.2993595,
+            40.0493381
+          ],
+          [
+            116.2993595,
+            40.0524822
+          ],
+          [
+            116.2995942,
+            40.0527068
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R_MAIN_2",
+      "properties": {
+        "id": "R_MAIN_2",
+        "name": "中央景观大道",
+        "level": "main",
+        "width": 6,
+        "surface": "沥青"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.2993595,
+            40.0512695
+          ],
+          [
+            116.3045231,
+            40.0512695
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R_SUB_1",
+      "properties": {
+        "id": "R_SUB_1",
+        "name": "西区支路",
+        "level": "sub",
+        "width": 4,
+        "surface": "沥青"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.300357,
+            40.0527068
+          ],
+          [
+            116.300357,
+            40.0491135
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R_SUB_2",
+      "properties": {
+        "id": "R_SUB_2",
+        "name": "东区支路",
+        "level": "sub",
+        "width": 4,
+        "surface": "沥青"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3033496,
+            40.0527068
+          ],
+          [
+            116.3033496,
+            40.0491135
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R_SUB_3",
+      "properties": {
+        "id": "R_SUB_3",
+        "name": "北区支路",
+        "level": "sub",
+        "width": 4,
+        "surface": "沥青"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.2995942,
+            40.0518983
+          ],
+          [
+            116.3045231,
+            40.0518983
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "R_SUB_4",
+      "properties": {
+        "id": "R_SUB_4",
+        "name": "南区支路",
+        "level": "sub",
+        "width": 4,
+        "surface": "沥青"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.2995942,
+            40.0501017
+          ],
+          [
+            116.3045231,
+            40.0501017
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "cesium-agent-community-demo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Cesium + AI Agent 市政工程（小区）数字化 Demo：三维数字底板 + MCP 自然语言操控 + 私有化 RAG 知识库",
+  "type": "module",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "data:build": "node scripts/gen-scene-data.mjs",
+    "data:osm": "node scripts/fetch-osm-overpass.mjs",
+    "dev": "concurrently -n server,web -c cyan,green \"npm:dev:server\" \"npm:dev:web\"",
+    "dev:server": "npm run dev -w @demo/server",
+    "dev:web": "npm run dev -w @demo/web",
+    "build": "npm run build -w @demo/web",
+    "preview": "npm run preview -w @demo/web",
+    "start": "npm run start -w @demo/server",
+    "mcp": "npm run mcp -w @demo/server",
+    "smoke": "node scripts/smoke-test.mjs",
+    "verify:api": "node scripts/verify-cesium-api.mjs",
+    "verify:browser": "node scripts/browser-check.mjs",
+    "verify:all": "npm run verify:api && npm run smoke && npm run verify:browser"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "playwright-core": "^1.64.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "overrides": {
+    "@cesium/engine": "23.0.1",
+    "@cesium/widgets": "14.4.0"
+  }
+}

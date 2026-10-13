@@ -1,0 +1,447 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "W-001",
+      "properties": {
+        "id": "W-001",
+        "name": "给水主干管 DN300",
+        "pipe": "water",
+        "pipeLabel": "给水",
+        "color": "#2E86FF",
+        "diameter": 300,
+        "material": "球墨铸铁",
+        "depth": 1.8,
+        "builtYear": 2009,
+        "age": 17,
+        "length": 415,
+        "pressure": 0.42,
+        "health": 0.75,
+        "healthLevel": "关注",
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.2993595,
+            40.0524822
+          ],
+          [
+            116.3042297,
+            40.0524822
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "W-002",
+      "properties": {
+        "id": "W-002",
+        "name": "给水主干管 DN300",
+        "pipe": "water",
+        "pipeLabel": "给水",
+        "color": "#2E86FF",
+        "diameter": 300,
+        "material": "球墨铸铁",
+        "depth": 1.8,
+        "builtYear": 2009,
+        "age": 17,
+        "length": 350,
+        "pressure": 0.41,
+        "health": 0.71,
+        "healthLevel": "关注",
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3042297,
+            40.0524822
+          ],
+          [
+            116.3042297,
+            40.0493381
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "W-003",
+      "properties": {
+        "id": "W-003",
+        "name": "给水次干管 DN200",
+        "pipe": "water",
+        "pipeLabel": "给水",
+        "color": "#2E86FF",
+        "diameter": 200,
+        "material": "PE100",
+        "depth": 1.6,
+        "builtYear": 2016,
+        "age": 10,
+        "length": 415,
+        "pressure": 0.38,
+        "health": 0.74,
+        "healthLevel": "关注",
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.2993595,
+            40.0512695
+          ],
+          [
+            116.3042297,
+            40.0512695
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "W-004",
+      "properties": {
+        "id": "W-004",
+        "name": "给水支管 DN150",
+        "pipe": "water",
+        "pipeLabel": "给水",
+        "color": "#2E86FF",
+        "diameter": 150,
+        "material": "PE100",
+        "depth": 1.4,
+        "builtYear": 2016,
+        "age": 10,
+        "length": 350,
+        "pressure": 0.35,
+        "health": 0.76,
+        "healthLevel": "关注",
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.300357,
+            40.0524822
+          ],
+          [
+            116.300357,
+            40.0493381
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "W-005",
+      "properties": {
+        "id": "W-005",
+        "name": "给水支管 DN150",
+        "pipe": "water",
+        "pipeLabel": "给水",
+        "color": "#2E86FF",
+        "diameter": 150,
+        "material": "PE100",
+        "depth": 1.4,
+        "builtYear": 2016,
+        "age": 10,
+        "length": 350,
+        "pressure": 0.36,
+        "health": 0.75,
+        "healthLevel": "关注",
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3033496,
+            40.0524822
+          ],
+          [
+            116.3033496,
+            40.0493381
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "G-001",
+      "properties": {
+        "id": "G-001",
+        "name": "中压燃气管 DN200",
+        "pipe": "gas",
+        "pipeLabel": "燃气",
+        "color": "#FF8C00",
+        "diameter": 200,
+        "material": "PE80",
+        "depth": 1.2,
+        "builtYear": 2012,
+        "age": 14,
+        "length": 30,
+        "pressure": 0.28,
+        "health": 0.69,
+        "healthLevel": "关注",
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3021174,
+            40.051539
+          ],
+          [
+            116.3021174,
+            40.0512695
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "G-002",
+      "properties": {
+        "id": "G-002",
+        "name": "中压燃气环管 DN200",
+        "pipe": "gas",
+        "pipeLabel": "燃气",
+        "color": "#FF8C00",
+        "diameter": 200,
+        "material": "PE80",
+        "depth": 1.2,
+        "builtYear": 2012,
+        "age": 14,
+        "length": 150,
+        "pressure": 0.27,
+        "health": 0.71,
+        "healthLevel": "关注",
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3021174,
+            40.0512695
+          ],
+          [
+            116.300357,
+            40.0512695
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "G-003",
+      "properties": {
+        "id": "G-003",
+        "name": "中压燃气环管 DN200",
+        "pipe": "gas",
+        "pipeLabel": "燃气",
+        "color": "#FF8C00",
+        "diameter": 200,
+        "material": "PE80",
+        "depth": 1.2,
+        "builtYear": 2012,
+        "age": 14,
+        "length": 105,
+        "pressure": 0.27,
+        "health": 0.7,
+        "healthLevel": "关注",
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3021174,
+            40.0512695
+          ],
+          [
+            116.3033496,
+            40.0512695
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "G-004",
+      "properties": {
+        "id": "G-004",
+        "name": "低压庭院管 DN100",
+        "pipe": "gas",
+        "pipeLabel": "燃气",
+        "color": "#FF8C00",
+        "diameter": 100,
+        "material": "PE80",
+        "depth": 1,
+        "builtYear": 2012,
+        "age": 14,
+        "length": 90,
+        "pressure": 0.05,
+        "health": 0.72,
+        "healthLevel": "关注",
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.300357,
+            40.0512695
+          ],
+          [
+            116.300357,
+            40.052078
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "G-005",
+      "properties": {
+        "id": "G-005",
+        "name": "低压庭院管 DN100",
+        "pipe": "gas",
+        "pipeLabel": "燃气",
+        "color": "#FF8C00",
+        "diameter": 100,
+        "material": "PE80",
+        "depth": 1,
+        "builtYear": 2012,
+        "age": 14,
+        "length": 150,
+        "pressure": 0.05,
+        "health": 0.71,
+        "healthLevel": "关注",
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.300357,
+            40.0512695
+          ],
+          [
+            116.300357,
+            40.049922
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "G-006",
+      "properties": {
+        "id": "G-006",
+        "name": "低压庭院管 DN100",
+        "pipe": "gas",
+        "pipeLabel": "燃气",
+        "color": "#FF8C00",
+        "diameter": 100,
+        "material": "PE80",
+        "depth": 1,
+        "builtYear": 2012,
+        "age": 14,
+        "length": 90,
+        "pressure": 0.05,
+        "health": 0.73,
+        "healthLevel": "关注",
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3033496,
+            40.0512695
+          ],
+          [
+            116.3033496,
+            40.052078
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S-001",
+      "properties": {
+        "id": "S-001",
+        "name": "污水干管 DN400",
+        "pipe": "sewage",
+        "pipeLabel": "污水",
+        "color": "#8B5A2B",
+        "diameter": 400,
+        "material": "HDPE 双壁波纹管",
+        "depth": 3.2,
+        "builtYear": 2008,
+        "age": 18,
+        "length": 415,
+        "pressure": 0,
+        "health": 0.64,
+        "healthLevel": "关注",
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.2993595,
+            40.050461
+          ],
+          [
+            116.3042297,
+            40.050461
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "S-002",
+      "properties": {
+        "id": "S-002",
+        "name": "污水干管 DN400",
+        "pipe": "sewage",
+        "pipeLabel": "污水",
+        "color": "#8B5A2B",
+        "diameter": 400,
+        "material": "HDPE 双壁波纹管",
+        "depth": 3.4,
+        "builtYear": 2008,
+        "age": 18,
+        "length": 125,
+        "pressure": 0,
+        "health": 0.66,
+        "healthLevel": "关注",
+        "riskLevel": "medium"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.3042297,
+            40.050461
+          ],
+          [
+            116.3042297,
+            40.0493381
+          ]
+        ]
+      }
+    }
+  ]
+}

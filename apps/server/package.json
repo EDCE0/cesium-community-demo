@@ -1,0 +1,20 @@
+{
+  "name": "@demo/server",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.mjs",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "dev": "node --watch src/index.mjs",
+    "mcp": "node src/mcp-stdio.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "cesium-mcp-runtime": "1.139.0",
+    "cors": "^2.8.5",
+    "express": "^4.22.3",
+    "ws": "^8.22.0",
+    "zod": "^3.25.76"
+  }
+}

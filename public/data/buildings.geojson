@@ -1,0 +1,1333 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "B01",
+      "properties": {
+        "id": "B01",
+        "name": "1 号楼",
+        "type": "residential",
+        "group": "西区",
+        "floors": 6,
+        "height": 18,
+        "floorHeight": 3,
+        "footprintArea": 528,
+        "buildingArea": 3168,
+        "units": 12,
+        "occupiedUnits": 12,
+        "occupancyRate": 1,
+        "builtYear": 2014,
+        "structure": "砖混",
+        "hasElevator": false,
+        "lon": 116.300005,
+        "lat": 40.052078,
+        "center": [
+          116.300005,
+          40.052078
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.2999346,
+              40.0518803
+            ],
+            [
+              116.3000754,
+              40.0518803
+            ],
+            [
+              116.3000754,
+              40.0522756
+            ],
+            [
+              116.2999346,
+              40.0522756
+            ],
+            [
+              116.2999346,
+              40.0518803
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B02",
+      "properties": {
+        "id": "B02",
+        "name": "2 号楼",
+        "type": "residential",
+        "group": "西区",
+        "floors": 6,
+        "height": 18,
+        "floorHeight": 3,
+        "footprintArea": 528,
+        "buildingArea": 3168,
+        "units": 12,
+        "occupiedUnits": 12,
+        "occupancyRate": 1,
+        "builtYear": 2015,
+        "structure": "砖混",
+        "hasElevator": false,
+        "lon": 116.300005,
+        "lat": 40.051539,
+        "center": [
+          116.300005,
+          40.051539
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.2999346,
+              40.0513414
+            ],
+            [
+              116.3000754,
+              40.0513414
+            ],
+            [
+              116.3000754,
+              40.0517366
+            ],
+            [
+              116.2999346,
+              40.0517366
+            ],
+            [
+              116.2999346,
+              40.0513414
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B03",
+      "properties": {
+        "id": "B03",
+        "name": "3 号楼",
+        "type": "residential",
+        "group": "西区",
+        "floors": 6,
+        "height": 18,
+        "floorHeight": 3,
+        "footprintArea": 528,
+        "buildingArea": 3168,
+        "units": 12,
+        "occupiedUnits": 12,
+        "occupancyRate": 1,
+        "builtYear": 2016,
+        "structure": "砖混",
+        "hasElevator": false,
+        "lon": 116.300005,
+        "lat": 40.051,
+        "center": [
+          116.300005,
+          40.051
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.2999346,
+              40.0508024
+            ],
+            [
+              116.3000754,
+              40.0508024
+            ],
+            [
+              116.3000754,
+              40.0511976
+            ],
+            [
+              116.2999346,
+              40.0511976
+            ],
+            [
+              116.2999346,
+              40.0508024
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B04",
+      "properties": {
+        "id": "B04",
+        "name": "4 号楼",
+        "type": "residential",
+        "group": "西区",
+        "floors": 6,
+        "height": 18,
+        "floorHeight": 3,
+        "footprintArea": 528,
+        "buildingArea": 3168,
+        "units": 12,
+        "occupiedUnits": 11,
+        "occupancyRate": 0.917,
+        "builtYear": 2017,
+        "structure": "砖混",
+        "hasElevator": false,
+        "lon": 116.300005,
+        "lat": 40.050461,
+        "center": [
+          116.300005,
+          40.050461
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.2999346,
+              40.0502634
+            ],
+            [
+              116.3000754,
+              40.0502634
+            ],
+            [
+              116.3000754,
+              40.0506586
+            ],
+            [
+              116.2999346,
+              40.0506586
+            ],
+            [
+              116.2999346,
+              40.0502634
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B05",
+      "properties": {
+        "id": "B05",
+        "name": "5 号楼",
+        "type": "residential",
+        "group": "西区",
+        "floors": 6,
+        "height": 18,
+        "floorHeight": 3,
+        "footprintArea": 528,
+        "buildingArea": 3168,
+        "units": 12,
+        "occupiedUnits": 11,
+        "occupancyRate": 0.917,
+        "builtYear": 2018,
+        "structure": "砖混",
+        "hasElevator": false,
+        "lon": 116.300005,
+        "lat": 40.049922,
+        "center": [
+          116.300005,
+          40.049922
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.2999346,
+              40.0497244
+            ],
+            [
+              116.3000754,
+              40.0497244
+            ],
+            [
+              116.3000754,
+              40.0501197
+            ],
+            [
+              116.2999346,
+              40.0501197
+            ],
+            [
+              116.2999346,
+              40.0497244
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B06",
+      "properties": {
+        "id": "B06",
+        "name": "6 号楼",
+        "type": "residential",
+        "group": "西区",
+        "floors": 11,
+        "height": 33,
+        "floorHeight": 3,
+        "footprintArea": 416,
+        "buildingArea": 4576,
+        "units": 33,
+        "occupiedUnits": 31,
+        "occupancyRate": 0.939,
+        "builtYear": 2019,
+        "structure": "砖混",
+        "hasElevator": true,
+        "lon": 116.3007678,
+        "lat": 40.0496525,
+        "center": [
+          116.3007678,
+          40.0496525
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.30058,
+              40.0495941
+            ],
+            [
+              116.3009556,
+              40.0495941
+            ],
+            [
+              116.3009556,
+              40.0497109
+            ],
+            [
+              116.30058,
+              40.0497109
+            ],
+            [
+              116.30058,
+              40.0495941
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B07",
+      "properties": {
+        "id": "B07",
+        "name": "7 号楼",
+        "type": "residential",
+        "group": "北区",
+        "floors": 18,
+        "height": 54,
+        "floorHeight": 3,
+        "footprintArea": 572,
+        "buildingArea": 10296,
+        "units": 72,
+        "occupiedUnits": 70,
+        "occupancyRate": 0.972,
+        "builtYear": 2008,
+        "structure": "剪力墙",
+        "hasElevator": true,
+        "lon": 116.3010612,
+        "lat": 40.0523475,
+        "center": [
+          116.3010612,
+          40.0523475
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.300803,
+              40.0522891
+            ],
+            [
+              116.3013193,
+              40.0522891
+            ],
+            [
+              116.3013193,
+              40.0524059
+            ],
+            [
+              116.300803,
+              40.0524059
+            ],
+            [
+              116.300803,
+              40.0522891
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B08",
+      "properties": {
+        "id": "B08",
+        "name": "8 号楼",
+        "type": "residential",
+        "group": "北区",
+        "floors": 18,
+        "height": 54,
+        "floorHeight": 3,
+        "footprintArea": 572,
+        "buildingArea": 10296,
+        "units": 72,
+        "occupiedUnits": 64,
+        "occupancyRate": 0.889,
+        "builtYear": 2009,
+        "structure": "剪力墙",
+        "hasElevator": true,
+        "lon": 116.3017066,
+        "lat": 40.0523475,
+        "center": [
+          116.3017066,
+          40.0523475
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3014484,
+              40.0522891
+            ],
+            [
+              116.3019648,
+              40.0522891
+            ],
+            [
+              116.3019648,
+              40.0524059
+            ],
+            [
+              116.3014484,
+              40.0524059
+            ],
+            [
+              116.3014484,
+              40.0522891
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B09",
+      "properties": {
+        "id": "B09",
+        "name": "9 号楼",
+        "type": "residential",
+        "group": "北区",
+        "floors": 18,
+        "height": 54,
+        "floorHeight": 3,
+        "footprintArea": 572,
+        "buildingArea": 10296,
+        "units": 72,
+        "occupiedUnits": 66,
+        "occupancyRate": 0.917,
+        "builtYear": 2010,
+        "structure": "剪力墙",
+        "hasElevator": true,
+        "lon": 116.3023521,
+        "lat": 40.0523475,
+        "center": [
+          116.3023521,
+          40.0523475
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3020939,
+              40.0522891
+            ],
+            [
+              116.3026102,
+              40.0522891
+            ],
+            [
+              116.3026102,
+              40.0524059
+            ],
+            [
+              116.3020939,
+              40.0524059
+            ],
+            [
+              116.3020939,
+              40.0522891
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B10",
+      "properties": {
+        "id": "B10",
+        "name": "10 号楼",
+        "type": "residential",
+        "group": "北区",
+        "floors": 11,
+        "height": 33,
+        "floorHeight": 3,
+        "footprintArea": 572,
+        "buildingArea": 6292,
+        "units": 33,
+        "occupiedUnits": 30,
+        "occupancyRate": 0.909,
+        "builtYear": 2008,
+        "structure": "砖混",
+        "hasElevator": true,
+        "lon": 116.3029975,
+        "lat": 40.0523475,
+        "center": [
+          116.3029975,
+          40.0523475
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3027393,
+              40.0522891
+            ],
+            [
+              116.3032557,
+              40.0522891
+            ],
+            [
+              116.3032557,
+              40.0524059
+            ],
+            [
+              116.3027393,
+              40.0524059
+            ],
+            [
+              116.3027393,
+              40.0522891
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B11",
+      "properties": {
+        "id": "B11",
+        "name": "11 号楼",
+        "type": "residential",
+        "group": "北区",
+        "floors": 11,
+        "height": 33,
+        "floorHeight": 3,
+        "footprintArea": 572,
+        "buildingArea": 6292,
+        "units": 33,
+        "occupiedUnits": 29,
+        "occupancyRate": 0.879,
+        "builtYear": 2019,
+        "structure": "砖混",
+        "hasElevator": true,
+        "lon": 116.303643,
+        "lat": 40.0523475,
+        "center": [
+          116.303643,
+          40.0523475
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3035667,
+              40.0521498
+            ],
+            [
+              116.3037192,
+              40.0521498
+            ],
+            [
+              116.3037192,
+              40.0525451
+            ],
+            [
+              116.3035667,
+              40.0525451
+            ],
+            [
+              116.3035667,
+              40.0521498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B12",
+      "properties": {
+        "id": "B12",
+        "name": "12 号楼",
+        "type": "residential",
+        "group": "南区",
+        "floors": 18,
+        "height": 54,
+        "floorHeight": 3,
+        "footprintArea": 572,
+        "buildingArea": 10296,
+        "units": 72,
+        "occupiedUnits": 69,
+        "occupancyRate": 0.958,
+        "builtYear": 2018,
+        "structure": "剪力墙",
+        "hasElevator": true,
+        "lon": 116.3010612,
+        "lat": 40.0495627,
+        "center": [
+          116.3010612,
+          40.0495627
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.300803,
+              40.0495043
+            ],
+            [
+              116.3013193,
+              40.0495043
+            ],
+            [
+              116.3013193,
+              40.0496211
+            ],
+            [
+              116.300803,
+              40.0496211
+            ],
+            [
+              116.300803,
+              40.0495043
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B13",
+      "properties": {
+        "id": "B13",
+        "name": "13 号楼",
+        "type": "residential",
+        "group": "南区",
+        "floors": 18,
+        "height": 54,
+        "floorHeight": 3,
+        "footprintArea": 572,
+        "buildingArea": 10296,
+        "units": 72,
+        "occupiedUnits": 67,
+        "occupancyRate": 0.931,
+        "builtYear": 2017,
+        "structure": "剪力墙",
+        "hasElevator": true,
+        "lon": 116.3017066,
+        "lat": 40.0495627,
+        "center": [
+          116.3017066,
+          40.0495627
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3014484,
+              40.0495043
+            ],
+            [
+              116.3019648,
+              40.0495043
+            ],
+            [
+              116.3019648,
+              40.0496211
+            ],
+            [
+              116.3014484,
+              40.0496211
+            ],
+            [
+              116.3014484,
+              40.0495043
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B14",
+      "properties": {
+        "id": "B14",
+        "name": "14 号楼",
+        "type": "residential",
+        "group": "南区",
+        "floors": 11,
+        "height": 33,
+        "floorHeight": 3,
+        "footprintArea": 572,
+        "buildingArea": 6292,
+        "units": 33,
+        "occupiedUnits": 33,
+        "occupancyRate": 1,
+        "builtYear": 2012,
+        "structure": "砖混",
+        "hasElevator": true,
+        "lon": 116.3023521,
+        "lat": 40.0495627,
+        "center": [
+          116.3023521,
+          40.0495627
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3020939,
+              40.0495043
+            ],
+            [
+              116.3026102,
+              40.0495043
+            ],
+            [
+              116.3026102,
+              40.0496211
+            ],
+            [
+              116.3020939,
+              40.0496211
+            ],
+            [
+              116.3020939,
+              40.0495043
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B15",
+      "properties": {
+        "id": "B15",
+        "name": "15 号楼",
+        "type": "residential",
+        "group": "南区",
+        "floors": 11,
+        "height": 33,
+        "floorHeight": 3,
+        "footprintArea": 572,
+        "buildingArea": 6292,
+        "units": 33,
+        "occupiedUnits": 31,
+        "occupancyRate": 0.939,
+        "builtYear": 2011,
+        "structure": "砖混",
+        "hasElevator": true,
+        "lon": 116.3029975,
+        "lat": 40.0495627,
+        "center": [
+          116.3029975,
+          40.0495627
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3027393,
+              40.0495043
+            ],
+            [
+              116.3032557,
+              40.0495043
+            ],
+            [
+              116.3032557,
+              40.0496211
+            ],
+            [
+              116.3027393,
+              40.0496211
+            ],
+            [
+              116.3027393,
+              40.0495043
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B16",
+      "properties": {
+        "id": "B16",
+        "name": "16 号楼",
+        "type": "residential",
+        "group": "南区",
+        "floors": 6,
+        "height": 18,
+        "floorHeight": 3,
+        "footprintArea": 572,
+        "buildingArea": 3432,
+        "units": 12,
+        "occupiedUnits": 11,
+        "occupancyRate": 0.917,
+        "builtYear": 2010,
+        "structure": "砖混",
+        "hasElevator": false,
+        "lon": 116.303643,
+        "lat": 40.0496525,
+        "center": [
+          116.303643,
+          40.0496525
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3035667,
+              40.0494549
+            ],
+            [
+              116.3037192,
+              40.0494549
+            ],
+            [
+              116.3037192,
+              40.0498502
+            ],
+            [
+              116.3035667,
+              40.0498502
+            ],
+            [
+              116.3035667,
+              40.0494549
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B17",
+      "properties": {
+        "id": "B17",
+        "name": "17 号楼",
+        "type": "residential",
+        "group": "南区",
+        "floors": 6,
+        "height": 18,
+        "floorHeight": 3,
+        "footprintArea": 468,
+        "buildingArea": 2808,
+        "units": 12,
+        "occupiedUnits": 11,
+        "occupancyRate": 0.917,
+        "builtYear": 2009,
+        "structure": "砖混",
+        "hasElevator": false,
+        "lon": 116.303819,
+        "lat": 40.0502814,
+        "center": [
+          116.303819,
+          40.0502814
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3037427,
+              40.0501197
+            ],
+            [
+              116.3038953,
+              40.0501197
+            ],
+            [
+              116.3038953,
+              40.050443
+            ],
+            [
+              116.3037427,
+              40.050443
+            ],
+            [
+              116.3037427,
+              40.0501197
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B_C01",
+      "properties": {
+        "id": "B_C01",
+        "name": "社区服务中心",
+        "type": "community",
+        "group": "公共配套",
+        "floors": 4,
+        "height": 12,
+        "floorHeight": 3,
+        "footprintArea": 1380,
+        "buildingArea": 5520,
+        "units": 4,
+        "occupiedUnits": 2,
+        "occupancyRate": 0.5,
+        "builtYear": 2008,
+        "structure": "砖混",
+        "hasElevator": false,
+        "lon": 116.3015306,
+        "lat": 40.051,
+        "center": [
+          116.3015306,
+          40.051
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3012607,
+              40.0508653
+            ],
+            [
+              116.3018005,
+              40.0508653
+            ],
+            [
+              116.3018005,
+              40.0509731
+            ],
+            [
+              116.3015893,
+              40.0509731
+            ],
+            [
+              116.3015893,
+              40.0511347
+            ],
+            [
+              116.3012607,
+              40.0511347
+            ],
+            [
+              116.3012607,
+              40.0508653
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B_C02",
+      "properties": {
+        "id": "B_C02",
+        "name": "阳光幼儿园",
+        "type": "school",
+        "group": "公共配套",
+        "floors": 3,
+        "height": 9,
+        "floorHeight": 3,
+        "footprintArea": 864,
+        "buildingArea": 2592,
+        "units": 3,
+        "occupiedUnits": 2,
+        "occupancyRate": 0.667,
+        "builtYear": 2017,
+        "structure": "砖混",
+        "hasElevator": false,
+        "lon": 116.3027041,
+        "lat": 40.0513593,
+        "center": [
+          116.3027041,
+          40.0513593
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3024929,
+              40.0512515
+            ],
+            [
+              116.3029154,
+              40.0512515
+            ],
+            [
+              116.3029154,
+              40.0514671
+            ],
+            [
+              116.3024929,
+              40.0514671
+            ],
+            [
+              116.3024929,
+              40.0512515
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B_C03",
+      "properties": {
+        "id": "B_C03",
+        "name": "商业配套楼",
+        "type": "commercial",
+        "group": "公共配套",
+        "floors": 2,
+        "height": 6,
+        "floorHeight": 3,
+        "footprintArea": 720,
+        "buildingArea": 1440,
+        "units": 2,
+        "occupiedUnits": 2,
+        "occupancyRate": 1,
+        "builtYear": 2018,
+        "structure": "砖混",
+        "hasElevator": false,
+        "lon": 116.3027041,
+        "lat": 40.0507305,
+        "center": [
+          116.3027041,
+          40.0507305
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3024694,
+              40.0506497
+            ],
+            [
+              116.3029388,
+              40.0506497
+            ],
+            [
+              116.3029388,
+              40.0508114
+            ],
+            [
+              116.3024694,
+              40.0508114
+            ],
+            [
+              116.3024694,
+              40.0506497
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B_C04",
+      "properties": {
+        "id": "B_C04",
+        "name": "水泵房",
+        "type": "utility",
+        "group": "公共配套",
+        "floors": 1,
+        "height": 3,
+        "floorHeight": 3,
+        "footprintArea": 140,
+        "buildingArea": 140,
+        "units": 1,
+        "occupiedUnits": 1,
+        "occupancyRate": 1,
+        "builtYear": 2011,
+        "structure": "砖混",
+        "hasElevator": false,
+        "lon": 116.3005918,
+        "lat": 40.0511797,
+        "center": [
+          116.3005918,
+          40.0511797
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3005096,
+              40.0511347
+            ],
+            [
+              116.3006739,
+              40.0511347
+            ],
+            [
+              116.3006739,
+              40.0512246
+            ],
+            [
+              116.3005096,
+              40.0512246
+            ],
+            [
+              116.3005096,
+              40.0511347
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B_C05",
+      "properties": {
+        "id": "B_C05",
+        "name": "燃气调压站",
+        "type": "utility",
+        "group": "公共配套",
+        "floors": 1,
+        "height": 3,
+        "floorHeight": 3,
+        "footprintArea": 120,
+        "buildingArea": 120,
+        "units": 1,
+        "occupiedUnits": 1,
+        "occupancyRate": 1,
+        "builtYear": 2012,
+        "structure": "砖混",
+        "hasElevator": false,
+        "lon": 116.3021174,
+        "lat": 40.051539,
+        "center": [
+          116.3021174,
+          40.051539
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3020469,
+              40.0514941
+            ],
+            [
+              116.3021878,
+              40.0514941
+            ],
+            [
+              116.3021878,
+              40.0515839
+            ],
+            [
+              116.3020469,
+              40.0515839
+            ],
+            [
+              116.3020469,
+              40.0514941
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B_C06",
+      "properties": {
+        "id": "B_C06",
+        "name": "10kV 配电室",
+        "type": "utility",
+        "group": "公共配套",
+        "floors": 1,
+        "height": 3,
+        "floorHeight": 3,
+        "footprintArea": 120,
+        "buildingArea": 120,
+        "units": 1,
+        "occupiedUnits": 1,
+        "occupancyRate": 1,
+        "builtYear": 2009,
+        "structure": "砖混",
+        "hasElevator": false,
+        "lon": 116.3023521,
+        "lat": 40.051539,
+        "center": [
+          116.3023521,
+          40.051539
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3022816,
+              40.0514941
+            ],
+            [
+              116.3024225,
+              40.0514941
+            ],
+            [
+              116.3024225,
+              40.0515839
+            ],
+            [
+              116.3022816,
+              40.0515839
+            ],
+            [
+              116.3022816,
+              40.0514941
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B_C07",
+      "properties": {
+        "id": "B_C07",
+        "name": "地下车库出入口",
+        "type": "parking",
+        "group": "公共配套",
+        "floors": 1,
+        "height": 3,
+        "floorHeight": 3,
+        "footprintArea": 160,
+        "buildingArea": 160,
+        "units": 1,
+        "occupiedUnits": 1,
+        "occupancyRate": 1,
+        "builtYear": 2010,
+        "structure": "砖混",
+        "hasElevator": false,
+        "lon": 116.3008265,
+        "lat": 40.050461,
+        "center": [
+          116.3008265,
+          40.050461
+        ],
+        "baseHeight": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.3007678,
+              40.0503891
+            ],
+            [
+              116.3008851,
+              40.0503891
+            ],
+            [
+              116.3008851,
+              40.0505329
+            ],
+            [
+              116.3007678,
+              40.0505329
+            ],
+            [
+              116.3007678,
+              40.0503891
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

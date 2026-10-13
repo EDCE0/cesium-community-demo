@@ -1,0 +1,89 @@
+{
+  "site": "阳光新城",
+  "alarms": [
+    {
+      "id": "AL-20261012-01",
+      "ts": "2026-10-12 08:14:22",
+      "level": "critical",
+      "source": "IOT-GAS-DET",
+      "target": "B_C05",
+      "targetName": "燃气调压站",
+      "type": "gas",
+      "message": "可燃气体浓度 24.6 %LEL，超过报警阈值 20 %LEL",
+      "status": "处理中",
+      "handler": "张工"
+    },
+    {
+      "id": "AL-20261011-03",
+      "ts": "2026-10-11 21:40:07",
+      "level": "warning",
+      "source": "IOT-B07-W",
+      "target": "B07",
+      "targetName": "7 号楼",
+      "type": "pressure",
+      "message": "给水压力 0.23 MPa，低于告警阈值 0.25 MPa",
+      "status": "已恢复",
+      "handler": "李工"
+    },
+    {
+      "id": "AL-20261011-02",
+      "ts": "2026-10-11 14:02:55",
+      "level": "info",
+      "source": "W-002",
+      "target": "W-002",
+      "targetName": "给水主干管 DN300",
+      "type": "pipe",
+      "message": "管段健康度降至 0.71，建议纳入年度更换计划",
+      "status": "已归档",
+      "handler": "—"
+    },
+    {
+      "id": "AL-20261010-05",
+      "ts": "2026-10-10 19:22:31",
+      "level": "warning",
+      "source": "IOT-PUMP-02",
+      "target": "B_C04",
+      "targetName": "水泵房",
+      "type": "level",
+      "message": "高位水箱液位 1.82 m，低于告警阈值 2.0 m",
+      "status": "已恢复",
+      "handler": "王工"
+    },
+    {
+      "id": "AL-20261009-01",
+      "ts": "2026-10-09 09:11:03",
+      "level": "critical",
+      "source": "IOT-13-W",
+      "target": "B13",
+      "targetName": "13 号楼",
+      "type": "pressure",
+      "message": "给水压力骤降至 0.16 MPa，疑似支管泄漏",
+      "status": "已闭环",
+      "handler": "抢修一班"
+    },
+    {
+      "id": "AL-20261008-04",
+      "ts": "2026-10-08 16:35:48",
+      "level": "info",
+      "source": "IOT-PWR-01",
+      "target": "B_C06",
+      "targetName": "10kV 配电室",
+      "type": "power",
+      "message": "总负荷 812 kW，接近预警值 800 kW",
+      "status": "已恢复",
+      "handler": "—"
+    },
+    {
+      "id": "AL-20261007-02",
+      "ts": "2026-10-07 11:58:12",
+      "level": "warning",
+      "source": "IOT-GAS-DET",
+      "target": "B_C05",
+      "targetName": "燃气调压站",
+      "type": "gas",
+      "message": "可燃气体浓度 12.4 %LEL，超过预警阈值 10 %LEL",
+      "status": "已闭环",
+      "handler": "张工"
+    }
+  ]
+}

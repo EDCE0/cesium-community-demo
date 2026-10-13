@@ -1,0 +1,52 @@
+{
+  "name": "阳光新城",
+  "code": "YGN-001",
+  "city": "北京市 · 海淀区",
+  "origin": {
+    "lon": 116.302,
+    "lat": 40.051
+  },
+  "bbox": [
+    116.299359,
+    40.049113,
+    116.304523,
+    40.052707
+  ],
+  "area": 0.21,
+  "households": 609,
+  "buildings": 24,
+  "residentialBuildings": 17,
+  "pipeLength": 3035,
+  "sensors": 41,
+  "greenRate": 0.36,
+  "strataUnits": 6,
+  "management": "阳光新城物业管理处",
+  "generatedAt": "2026-10-12T15:51:08.690Z",
+  "layers": [
+    {
+      "id": "buildings",
+      "name": "建筑白模",
+      "file": "buildings.geojson"
+    },
+    {
+      "id": "roads",
+      "name": "小区道路",
+      "file": "roads.geojson"
+    },
+    {
+      "id": "greens",
+      "name": "绿地广场",
+      "file": "greens.geojson"
+    },
+    {
+      "id": "pipes",
+      "name": "地下管线",
+      "file": "pipes.geojson"
+    },
+    {
+      "id": "sensors",
+      "name": "IoT 点位",
+      "file": "sensors.geojson"
+    }
+  ]
+}

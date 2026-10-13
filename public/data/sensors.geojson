@@ -1,0 +1,835 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "IOT-B01-W",
+      "properties": {
+        "id": "IOT-B01-W",
+        "name": "1 号楼给水压力",
+        "type": "pressure",
+        "typeLabel": "管网压力",
+        "unit": "MPa",
+        "status": "normal",
+        "buildingId": "B01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2998876,
+          40.052078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B01-G",
+      "properties": {
+        "id": "IOT-B01-G",
+        "name": "1 号楼燃气浓度",
+        "type": "gas",
+        "typeLabel": "燃气浓度",
+        "unit": "%LEL",
+        "status": "normal",
+        "buildingId": "B01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3001223,
+          40.052078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B02-W",
+      "properties": {
+        "id": "IOT-B02-W",
+        "name": "2 号楼给水压力",
+        "type": "pressure",
+        "typeLabel": "管网压力",
+        "unit": "MPa",
+        "status": "normal",
+        "buildingId": "B02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2998876,
+          40.051539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B02-G",
+      "properties": {
+        "id": "IOT-B02-G",
+        "name": "2 号楼燃气浓度",
+        "type": "gas",
+        "typeLabel": "燃气浓度",
+        "unit": "%LEL",
+        "status": "normal",
+        "buildingId": "B02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3001223,
+          40.051539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B03-W",
+      "properties": {
+        "id": "IOT-B03-W",
+        "name": "3 号楼给水压力",
+        "type": "pressure",
+        "typeLabel": "管网压力",
+        "unit": "MPa",
+        "status": "normal",
+        "buildingId": "B03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2998876,
+          40.051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B03-G",
+      "properties": {
+        "id": "IOT-B03-G",
+        "name": "3 号楼燃气浓度",
+        "type": "gas",
+        "typeLabel": "燃气浓度",
+        "unit": "%LEL",
+        "status": "normal",
+        "buildingId": "B03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3001223,
+          40.051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B04-W",
+      "properties": {
+        "id": "IOT-B04-W",
+        "name": "4 号楼给水压力",
+        "type": "pressure",
+        "typeLabel": "管网压力",
+        "unit": "MPa",
+        "status": "normal",
+        "buildingId": "B04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2998876,
+          40.050461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B04-G",
+      "properties": {
+        "id": "IOT-B04-G",
+        "name": "4 号楼燃气浓度",
+        "type": "gas",
+        "typeLabel": "燃气浓度",
+        "unit": "%LEL",
+        "status": "normal",
+        "buildingId": "B04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3001223,
+          40.050461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B05-W",
+      "properties": {
+        "id": "IOT-B05-W",
+        "name": "5 号楼给水压力",
+        "type": "pressure",
+        "typeLabel": "管网压力",
+        "unit": "MPa",
+        "status": "normal",
+        "buildingId": "B05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2998876,
+          40.049922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B05-G",
+      "properties": {
+        "id": "IOT-B05-G",
+        "name": "5 号楼燃气浓度",
+        "type": "gas",
+        "typeLabel": "燃气浓度",
+        "unit": "%LEL",
+        "status": "normal",
+        "buildingId": "B05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3001223,
+          40.049922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B06-W",
+      "properties": {
+        "id": "IOT-B06-W",
+        "name": "6 号楼给水压力",
+        "type": "pressure",
+        "typeLabel": "管网压力",
+        "unit": "MPa",
+        "status": "normal",
+        "buildingId": "B06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3005331,
+          40.0496525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B06-G",
+      "properties": {
+        "id": "IOT-B06-G",
+        "name": "6 号楼燃气浓度",
+        "type": "gas",
+        "typeLabel": "燃气浓度",
+        "unit": "%LEL",
+        "status": "normal",
+        "buildingId": "B06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3010025,
+          40.0496525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B07-W",
+      "properties": {
+        "id": "IOT-B07-W",
+        "name": "7 号楼给水压力",
+        "type": "pressure",
+        "typeLabel": "管网压力",
+        "unit": "MPa",
+        "status": "normal",
+        "buildingId": "B07"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.300756,
+          40.0523475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B07-G",
+      "properties": {
+        "id": "IOT-B07-G",
+        "name": "7 号楼燃气浓度",
+        "type": "gas",
+        "typeLabel": "燃气浓度",
+        "unit": "%LEL",
+        "status": "normal",
+        "buildingId": "B07"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3013663,
+          40.0523475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B08-W",
+      "properties": {
+        "id": "IOT-B08-W",
+        "name": "8 号楼给水压力",
+        "type": "pressure",
+        "typeLabel": "管网压力",
+        "unit": "MPa",
+        "status": "normal",
+        "buildingId": "B08"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3014015,
+          40.0523475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B08-G",
+      "properties": {
+        "id": "IOT-B08-G",
+        "name": "8 号楼燃气浓度",
+        "type": "gas",
+        "typeLabel": "燃气浓度",
+        "unit": "%LEL",
+        "status": "normal",
+        "buildingId": "B08"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3020117,
+          40.0523475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B09-W",
+      "properties": {
+        "id": "IOT-B09-W",
+        "name": "9 号楼给水压力",
+        "type": "pressure",
+        "typeLabel": "管网压力",
+        "unit": "MPa",
+        "status": "normal",
+        "buildingId": "B09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3020469,
+          40.0523475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B09-G",
+      "properties": {
+        "id": "IOT-B09-G",
+        "name": "9 号楼燃气浓度",
+        "type": "gas",
+        "typeLabel": "燃气浓度",
+        "unit": "%LEL",
+        "status": "normal",
+        "buildingId": "B09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3026572,
+          40.0523475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B10-W",
+      "properties": {
+        "id": "IOT-B10-W",
+        "name": "10 号楼给水压力",
+        "type": "pressure",
+        "typeLabel": "管网压力",
+        "unit": "MPa",
+        "status": "normal",
+        "buildingId": "B10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3026924,
+          40.0523475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B10-G",
+      "properties": {
+        "id": "IOT-B10-G",
+        "name": "10 号楼燃气浓度",
+        "type": "gas",
+        "typeLabel": "燃气浓度",
+        "unit": "%LEL",
+        "status": "normal",
+        "buildingId": "B10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3033026,
+          40.0523475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B11-W",
+      "properties": {
+        "id": "IOT-B11-W",
+        "name": "11 号楼给水压力",
+        "type": "pressure",
+        "typeLabel": "管网压力",
+        "unit": "MPa",
+        "status": "normal",
+        "buildingId": "B11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3035197,
+          40.0523475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B11-G",
+      "properties": {
+        "id": "IOT-B11-G",
+        "name": "11 号楼燃气浓度",
+        "type": "gas",
+        "typeLabel": "燃气浓度",
+        "unit": "%LEL",
+        "status": "normal",
+        "buildingId": "B11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3037662,
+          40.0523475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B12-W",
+      "properties": {
+        "id": "IOT-B12-W",
+        "name": "12 号楼给水压力",
+        "type": "pressure",
+        "typeLabel": "管网压力",
+        "unit": "MPa",
+        "status": "normal",
+        "buildingId": "B12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.300756,
+          40.0495627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B12-G",
+      "properties": {
+        "id": "IOT-B12-G",
+        "name": "12 号楼燃气浓度",
+        "type": "gas",
+        "typeLabel": "燃气浓度",
+        "unit": "%LEL",
+        "status": "normal",
+        "buildingId": "B12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3013663,
+          40.0495627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B13-W",
+      "properties": {
+        "id": "IOT-B13-W",
+        "name": "13 号楼给水压力",
+        "type": "pressure",
+        "typeLabel": "管网压力",
+        "unit": "MPa",
+        "status": "normal",
+        "buildingId": "B13"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3014015,
+          40.0495627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B13-G",
+      "properties": {
+        "id": "IOT-B13-G",
+        "name": "13 号楼燃气浓度",
+        "type": "gas",
+        "typeLabel": "燃气浓度",
+        "unit": "%LEL",
+        "status": "normal",
+        "buildingId": "B13"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3020117,
+          40.0495627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B14-W",
+      "properties": {
+        "id": "IOT-B14-W",
+        "name": "14 号楼给水压力",
+        "type": "pressure",
+        "typeLabel": "管网压力",
+        "unit": "MPa",
+        "status": "normal",
+        "buildingId": "B14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3020469,
+          40.0495627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B14-G",
+      "properties": {
+        "id": "IOT-B14-G",
+        "name": "14 号楼燃气浓度",
+        "type": "gas",
+        "typeLabel": "燃气浓度",
+        "unit": "%LEL",
+        "status": "normal",
+        "buildingId": "B14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3026572,
+          40.0495627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B15-W",
+      "properties": {
+        "id": "IOT-B15-W",
+        "name": "15 号楼给水压力",
+        "type": "pressure",
+        "typeLabel": "管网压力",
+        "unit": "MPa",
+        "status": "normal",
+        "buildingId": "B15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3026924,
+          40.0495627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B15-G",
+      "properties": {
+        "id": "IOT-B15-G",
+        "name": "15 号楼燃气浓度",
+        "type": "gas",
+        "typeLabel": "燃气浓度",
+        "unit": "%LEL",
+        "status": "normal",
+        "buildingId": "B15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3033026,
+          40.0495627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B16-W",
+      "properties": {
+        "id": "IOT-B16-W",
+        "name": "16 号楼给水压力",
+        "type": "pressure",
+        "typeLabel": "管网压力",
+        "unit": "MPa",
+        "status": "normal",
+        "buildingId": "B16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3035197,
+          40.0496525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B16-G",
+      "properties": {
+        "id": "IOT-B16-G",
+        "name": "16 号楼燃气浓度",
+        "type": "gas",
+        "typeLabel": "燃气浓度",
+        "unit": "%LEL",
+        "status": "normal",
+        "buildingId": "B16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3037662,
+          40.0496525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B17-W",
+      "properties": {
+        "id": "IOT-B17-W",
+        "name": "17 号楼给水压力",
+        "type": "pressure",
+        "typeLabel": "管网压力",
+        "unit": "MPa",
+        "status": "normal",
+        "buildingId": "B17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3036958,
+          40.0502814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-B17-G",
+      "properties": {
+        "id": "IOT-B17-G",
+        "name": "17 号楼燃气浓度",
+        "type": "gas",
+        "typeLabel": "燃气浓度",
+        "unit": "%LEL",
+        "status": "normal",
+        "buildingId": "B17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3039422,
+          40.0502814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-PUMP-01",
+      "properties": {
+        "id": "IOT-PUMP-01",
+        "name": "水泵房出水压力",
+        "type": "pressure",
+        "typeLabel": "管网压力",
+        "unit": "MPa",
+        "status": "normal",
+        "buildingId": "B_C04",
+        "warn": 0.25,
+        "crit": 0.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3006739,
+          40.0511797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-PUMP-02",
+      "properties": {
+        "id": "IOT-PUMP-02",
+        "name": "高位水箱液位",
+        "type": "level",
+        "typeLabel": "水池液位",
+        "unit": "m",
+        "status": "normal",
+        "buildingId": "B_C04",
+        "warn": 2,
+        "crit": 1.5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3005918,
+          40.0512336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-GAS-ST",
+      "properties": {
+        "id": "IOT-GAS-ST",
+        "name": "燃气调压站出口压力",
+        "type": "pressure",
+        "typeLabel": "管网压力",
+        "unit": "MPa",
+        "status": "normal",
+        "buildingId": "B_C05",
+        "warn": 0.22,
+        "crit": 0.18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3021995,
+          40.051539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-GAS-DET",
+      "properties": {
+        "id": "IOT-GAS-DET",
+        "name": "调压站可燃气体探测",
+        "type": "gas",
+        "typeLabel": "燃气浓度",
+        "unit": "%LEL",
+        "status": "normal",
+        "buildingId": "B_C05",
+        "warn": 10,
+        "crit": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3020469,
+          40.051539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-PWR-01",
+      "properties": {
+        "id": "IOT-PWR-01",
+        "name": "配电室总负荷",
+        "type": "power",
+        "typeLabel": "配电监测",
+        "unit": "kW",
+        "status": "normal",
+        "buildingId": "B_C06",
+        "warn": 800,
+        "crit": 950
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3024225,
+          40.051539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-FLOW-01",
+      "properties": {
+        "id": "IOT-FLOW-01",
+        "name": "小区总进水流量",
+        "type": "flow",
+        "typeLabel": "流量计",
+        "unit": "m³/h",
+        "status": "normal",
+        "buildingId": "B_C04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3006739,
+          40.0511258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IOT-FLOW-02",
+      "properties": {
+        "id": "IOT-FLOW-02",
+        "name": "小区总燃气流量",
+        "type": "flow",
+        "typeLabel": "流量计",
+        "unit": "m³/h",
+        "status": "normal",
+        "buildingId": "B_C05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3021995,
+          40.0514851
+        ]
+      }
+    }
+  ]
+}
